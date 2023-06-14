@@ -1,0 +1,53 @@
+.form{
+    
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    row-gap: 20px;
+    
+}
+form{
+    background-color: #fff;
+    margin: 100px 100px;
+    border: 1px solid #8d2b88;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: #000;
+    margin-left: 120px;
+}
+
+img[src="images/inscript.png"]{
+    margin-top: 100px;
+    height: 200px;
+    width: 150px;
+    margin-top: 70px;
+    margin-right: 200px;
+    
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0px;
+    
+}
+input[type="text"]{
+    border: 1px solid #000;
+    border-radius: 30px;
+    height: 30px;
+}
+input[type="submit"]{
+    background-color: #8d2b88;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+
+.stat{
+    font-size: larger;
+}
+
+img[src="images/inscript.png"]{
+    border-radius: 20px;
+}

@@ -1,0 +1,57 @@
+body{
+    background-color: #fff;
+    background-size: 100% 200px;
+    background-position: 0 0;
+    
+}
+img{
+    height: 50px;
+}
+ol{
+    margin-left: 100px;
+    margin-top: 100px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+}
+
+img[src="images/ecc.png"]{
+    height: 70px;
+    width: 200px;
+}
+img[src="images/esi.jpg"]{
+    width: 100px;
+}
+
+img[src="images/logo ensias.jpg"]{
+    height: 70px;
+    width: 80px;
+}
+
+.log{
+    justify-self: center;
+}
+
+.ecole{
+    grid-column: 2/8;
+    align-self: center;
+    color: #000;
+}
+.ecole a{
+    border-bottom: 5px ridge #0000002a;
+    border-left: 1px ridge #0000002a;
+    padding: 10px 0;
+    
+}
+.ecole .ai{
+    padding-right: 200px;
+}
+.ecole .ecc{
+    padding-right: 455px;
+}
+.ecole .ens{
+    padding-right: 500px;
+}
+.ecole .esi{
+    padding-right: 400px;
+}

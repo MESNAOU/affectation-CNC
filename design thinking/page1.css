@@ -1,0 +1,112 @@
+.crumbs ol {
+    list-style-type: none;
+    margin-inline-end: 10px;
+}
+
+.crumbs ol li a{
+    display: inline;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 0 10px;
+    color: purple;
+    text-decoration: none;
+}
+
+
+.crumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 25px;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: stretch;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: 205px;
+
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+img{
+    height: 30px;
+    align-self: center;
+    
+}
+
+img[src="images/logo.png"]{
+    padding-top: 20px;
+}
+
+h1{
+    font-family: Ink Free;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+h2{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+p{
+    width: 800px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 200px;
+}
+/*.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}*/
+
+body{
+    background-image: url(images/arriereplan.png);
+    background-repeat: no-repeat;
+    background-clip: unset;
+    background-origin: border-box;
+    background-size: 100%;
+    color: #fff;
+    margin: 0px;
+    
+    
+}
+
+.option{
+    border: 2px solid #9e3a80;
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 0 55px;
+    width: 230px;
+    padding: 0 10px;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+}
+
+
+
+.it{
+    padding: 0 5px;
+    align-self: center;
+    font-size: 40px;
+    color: #753b65;
+    text-decoration: none;
+}

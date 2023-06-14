@@ -1,0 +1,81 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.logo{
+    display: flex;
+}
+img[src="images/logo.png"]{
+    height: 25px;
+}
+div h2{
+    margin: 0;
+    font-family: Ink Free;
+    font-size: 30px;
+}
+body{
+    color: #ffffff;
+    background-image: url(images/arriereplan.png);
+    background-repeat: no-repeat;
+    background-clip: unset;
+    background-origin: border-box;
+    background-size: 100%;
+    margin: 0;
+    font-size: 18px;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.crumbs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.crumbs a{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 0 10px;
+    color: purple;
+    margin: 0 2px;
+    height: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.options{
+    list-style-type: none;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-inline-end: 10px;
+
+}
+.option a{
+    margin:0 100px;
+    border: 3px solid #8d2b88;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 5px 50px;
+    color: #8d2b88;
+    text-underline-offset: 13.25px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    background-color: #f780f1;
+}
