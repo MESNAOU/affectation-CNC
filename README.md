@@ -1,1 +1,2 @@
-The main objective of this project lies not in the development itself but in the method employed to identify the problem and find the optimal solution. This approach fosters innovation and collaboration among colleagues and with the client. It serves as an introduction to agile methods, primarily based on design thinking.# affectation-CNC
+The main objective of this project lies not in the development itself but in the method employed to identify the problem and find the optimal solution. This approach fosters innovation and collaboration among colleagues and with the client. It serves as an introduction to agile methods, primarily based on design thinking.
+In the report, you will find a detailed description of the approach followed.
